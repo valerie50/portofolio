@@ -1,0 +1,236 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins&family=Quicksand&display=swap');
+
+body{
+    margin:0;
+    font-family: 'Quicksand', sans-serif;
+    overflow-x: hidden;
+    
+}
+
+h1,h2,h3,h4,p{
+    font-family: 'Poppins', sans-serif;
+
+}
+
+h2,h3 {
+    color: brown;
+}
+
+h2 {
+    font-size: 2.2em;
+    text-align: center;
+    margin-top: 0;
+}
+
+/* En tête */
+header{
+    background-color: rgb(176, 176, 215);
+    height: 80px;
+    background-attachment: fixed;
+}
+
+.container{
+    width: 90%;
+    height: 90%;
+    margin: 0 auto;
+}
+
+.dflex{
+    display: flex;
+}
+
+.space-between{
+    justify-content: space-between;
+}
+
+.align-center {
+    align-items: center;
+}
+
+header ul, footer ul {
+      list-style: none;
+      padding-left: 0;
+}
+
+header li {
+    margin-left: 30px;
+}
+
+a {
+    text-decoration: none;
+}
+
+header a {
+    color: white;
+    font-size: 1.2em;
+}
+
+/* Section Bienvenue */
+.bienvenue {
+
+    padding: 80px 20px;    
+    color:  rgb(111, 187, 187);;   
+    text-align: center;
+    background-position: center center;    
+    background-size: cover;
+    background-repeat: no-repeat;    
+}
+
+h1 {
+    color: aqua;
+    font-weight: 400;
+}
+
+.slogan {
+    color: rgb(170, 170, 16);
+    font-size: 5em;
+    font-weight: 400;
+}
+
+.intro {
+    max-width: 700px;
+    color: black;
+    font-size: 1.2em;
+    text-align: justify;
+    margin: 20px auto;
+}
+
+.btn {
+    background-color: goldenrod;
+    margin-top: 50px;
+    padding: 10px 30px;
+    font-size: 1.5em;
+    color: white;
+    display: inline-block;
+    border-radius: 10px;
+}
+
+/* Section articles */
+.articles {
+    background-color: rgb(111, 187, 187);
+    text-align: center;
+    padding: 40px 20px 60px 20px;
+}
+article {
+    width: 360px;
+    background-color: rgb(111, 187, 187);
+}
+
+article img {
+    border-radius: 20px 0;
+}
+
+article p {
+    text-align: justify;
+    background-color: rgb(111, 187, 187);
+}
+
+
+/* Section agence */
+.agence {
+    padding: 40px 20px 60px 20px;
+    background-color: rgb(111, 187, 187);
+}
+.col {
+    width: 50%;
+}
+
+.agence img {
+    box-shadow: 30px 30px 0px goldenrod;
+}
+
+.agence p {
+    color: black;
+    text-align: justify;
+    padding: 0 30px;
+}
+
+/* section contact */
+.contact{
+    background-color: white;
+    padding: 20px;
+    background-size: cover;
+    font-family: 'Poppins', sans-serif;
+    color: goldenrod;
+}
+
+
+form {
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: space-between;
+   padding: 10px 30px;
+}
+
+input {
+    width: 45%;
+    height: 30px;
+    border: 1px solid grey;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    padding-left: 10px;
+}
+
+textarea {
+    width: 100%;
+    border: 1px solid grey;
+    border-radius: 5px;
+    padding-left: 10px;
+}
+
+form p {
+    text-align: center;
+    width: 100%;
+    margin-top: 40px;
+}
+
+button {
+    cursor: pointer;
+}
+
+input[placeholder], textarea[placeholder] {
+    font-family: 'Quicksand', sans-serif;
+    font-size: 1.2em;
+}
+
+.petitbtn{
+    background-color: rgb(176, 176, 215);
+    margin-top: 50px;
+    padding: 10px 30px;
+    font-size: 1.5em;
+    color: white;
+    display: inline-block;
+    border-radius: 10px;
+    text-align: right;
+}
+/* pied de page  */
+footer {
+    background-color: rgb(176, 176, 215);
+    padding: 10px;
+}
+
+.col-30 {
+    width: 30%;
+    text-align: center;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+}
+
+footer img {
+    padding-top: 20px;
+}
+
+i {
+    font-size: 2em;
+}
+
+.copyright {
+    color: black;
+    text-align: center;
+    border-top: 1px solid goldenrod;
+    padding-top: 10px;
+}

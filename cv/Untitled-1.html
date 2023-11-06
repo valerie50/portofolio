@@ -1,0 +1,146 @@
+<!-- En tête -->
+    <header>
+        <div class="container dflex space-between align-center">
+            <img src="favicon-32x32.png" alt="Valérie Ename Zolo" style="width: 50px;height: 50px;">
+             <strong>Valérie Ename Zolo</strong>
+            <ul class="dflex">
+                <strong><li style="text-decoration: underline;"><a href="Accueil/index.html">Accueil</a></li></strong>
+                <strong><li style="text-decoration: underline;"><a href="cv/index.html">Cv</a></li></strong>
+                <strong><li style="text-decoration: underline;"><a href="#">Contact</a></li></strong>
+                <strong><li style="text-decoration: underline;"><a href="#">Projets</a></li></strong>
+                <strong><li style="text-decoration: underline;"><a href="#">Vlog</a></li></strong>
+            </ul>
+        </div>
+    </header>
+
+
+    <!-- pied de page -->
+<footer>
+    <div class="container dflex space-between">
+      <div class="class-30">
+        <img src="favicon-32x32.png" alt="logo" style="width: 90px;height: 100px;">
+      </div>
+      <div class="class-30">
+        <h3 style="text-decoration: underline;">Informations</h3>
+        <ul>
+            <strong><li><a href="#">Mention Légales</a></li></strong>
+            <strong><li><a href="#">Contact</a></li><strong></strong>
+        </ul>
+      </div>
+      <div class="class-30">
+        <h3 style="text-decoration: underline;">Nous Suivre</h3>
+     <div class="social ">
+        <a href="#"><i class="fa-brands fa-instagram"></i></a>
+        <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+        <a href="#"><i class="fa-brands fa-youtube"></i></a>
+        <a href="#"><i class="fa-brands fa-twitter"></i></a>
+     </div>
+      </div>
+    </div>
+    <div class="container">
+        <p class="copyright">&copy; 2023 - Valérie - Tous droits réservés</p>
+    </div>
+</footer>
+
+
+@import url('https://fonts.googleapis.com/css2?family=Quicksand&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins&family=Quicksand&display=swap');
+
+body{
+    margin:0;
+    font-family: 'Quicksand', sans-serif;
+    overflow-x: hidden;
+    
+}
+
+h1,h2,h3,h4,p{
+    font-family: 'Poppins', sans-serif;
+
+}
+
+h2,h3 {
+    color: brown;
+}
+
+h2 {
+    font-size: 2.2em;
+    text-align: center;
+    margin-top: 0;
+}
+
+
+/* En tête */
+header{
+    background-color: rgb(176, 176, 215);
+    height: 80px;
+    background-attachment: fixed;
+}
+
+.container{
+    width: 90%;
+    height: 90%;
+    margin: 0 auto;
+}
+
+.dflex{
+    display: flex;
+}
+
+.space-between{
+    justify-content: space-between;
+}
+
+.align-center {
+    align-items: center;
+}
+
+header ul, footer ul {
+      list-style: none;
+      padding-left: 0;
+}
+
+header li {
+    margin-left: 30px;
+}
+
+a {
+    text-decoration: none;
+}
+
+header a {
+    color: white;
+    font-size: 1.2em;
+}
+
+
+
+/* pied de page  */
+footer {
+    background-color: rgb(176, 176, 215);
+    padding: 10px;
+}
+
+.col-30 {
+    width: 30%;
+    text-align: center;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+}
+
+footer img {
+    padding-top: 20px;
+}
+
+i {
+    font-size: 2em;
+}
+
+.copyright {
+    color: black;
+    text-align: center;
+    border-top: 1px solid goldenrod;
+    padding-top: 10px;
+}
